@@ -24,3 +24,13 @@ const isArrayFactorChain = require("./isArrayFactorChain");
 
 console.log(isArrayFactorChain([2, 4, 8, 16, 32]))
 console.log(isArrayFactorChain([2, 4, 8, 16, 32, 68]))
+
+///////////////////////////////////////////////////////////////////////
+
+console.log("Count number of arrays Test")
+const countNumberOfArrays = require("./countNumberOfArrays");
+const numArrays1 = countNumberOfArrays([2, 8, [6], 3, 3, 5, 3, 4, [5, 4]])
+const numArrays2 = countNumberOfArrays([2, 8, [6, 3, 3], [4], 5, [3, 4, [5, 4]]])
+
+console.log(numArrays1 === 2)
+console.log(numArrays2 === 3)
