@@ -25,3 +25,7 @@ console.log("Winners Object Test")
 const winnersObject = require("./winnersObject");
 const winnersResult = winnersObject(matches)
 console.log(winnersResult)
+
+console.log("Biggest loser test")
+const biggestLoser = require("./biggestLoser");
+console.log(biggestLoser(matches) === "Bob")
