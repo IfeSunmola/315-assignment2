@@ -1,3 +1,5 @@
+// Basic test script for object functions
+
 const matches = [
     {winner: 'Alice', loser: 'Bob', loser_points: 3},
     {winner: 'Carol', loser: 'Dean', loser_points: 1},

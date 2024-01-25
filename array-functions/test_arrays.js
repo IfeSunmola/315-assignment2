@@ -1,3 +1,5 @@
+// Basic test script for array functions
+
 function isSameData(arr1, arr2) {
     if (arr1.length !== arr2.length)
         return false;
@@ -17,7 +19,6 @@ console.log(isSameData(nanResult1, [1]))
 console.log(isSameData(nanResult2, [2, 5]))
 console.log(isSameData(nanResult3, []))
 
-///////////////////////////////////////////////////////////////////////
 
 console.log("Array factor chain Test")
 const isArrayFactorChain = require("./isArrayFactorChain");
@@ -25,7 +26,6 @@ const isArrayFactorChain = require("./isArrayFactorChain");
 console.log(isArrayFactorChain([2, 4, 8, 16, 32]))
 console.log(isArrayFactorChain([2, 4, 8, 16, 32, 68]))
 
-///////////////////////////////////////////////////////////////////////
 
 console.log("Count number of arrays Test")
 const countNumberOfArrays = require("./countNumberOfArrays");

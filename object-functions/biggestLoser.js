@@ -1,3 +1,8 @@
+/**
+ *Returns the name of the person with the lowest score
+ * @param {Array} matches - an array of objects with the following properties: winner, loser, loser_points
+ * @returns {String} - the name of the person with the lowest score
+ * */
 const biggestLoser = (matches) => {
     let tracker = {} // to keep track of the scores, and names
 
@@ -23,7 +28,6 @@ const biggestLoser = (matches) => {
         if (value < tracker[smallest]) smallest = key
     }
     return smallest
-
 }
 
 module.exports = biggestLoser;

@@ -1,3 +1,9 @@
+/**
+ * Returns an object which lists each participant, and a list of who they've beaten.
+ *
+ * @param {Array} matches
+ * @returns {Object} result
+ * */
 const winnersObject = (matches) => {
     let result = {}
     for (let i = 0; i < matches.length; i++) {

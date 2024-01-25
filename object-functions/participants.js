@@ -1,3 +1,8 @@
+/**
+ * Returns an array of all the player names
+ * @param {Array} matches
+ * @returns {Array} result
+ * */
 const participants = (matches) => {
     let result = []
     for (let i = 0; i < matches.length; i++) {
