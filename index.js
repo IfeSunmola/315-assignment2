@@ -1,6 +1,6 @@
-const findNaNIndex = require('./findNaNIndex');
-const isArrayFactorChain = require('./isArrayFactorChain');
-const countNumberOfArrays = require('./countNumberOfArrays');
+const findNaNIndex = require('./array-functions/findNaNIndex');
+const isArrayFactorChain = require('./array-functions/isArrayFactorChain');
+const countNumberOfArrays = require('./array-functions/countNumberOfArrays');
 
 module.exports = {
     findNaNIndex,
