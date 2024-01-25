@@ -1,0 +1,23 @@
+{
+  "name": "assignment-2-315",
+  "version": "1.0.0",
+  "description": "Develop a basic JavaScript library similar to Lodash that provides functions to manipulate arrays and objects.\nThis project is designed to be completed within two hours and will focus on JavaScript programming skills.\nThe aim is to understand and implement fundamental array and object manipulation methods.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IfeSunmola/315-assignment2.git"
+  },
+  "keywords": [
+    "cmpt315",
+    "macewan"
+  ],
+  "author": "Ife Sunmola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IfeSunmola/315-assignment2/issues"
+  },
+  "homepage": "https://github.com/IfeSunmola/315-assignment2#readme"
+}
