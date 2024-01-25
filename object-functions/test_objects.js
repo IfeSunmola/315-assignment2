@@ -20,3 +20,8 @@ console.log("Participants Test")
 const participants = require("./participants");
 const participantResult = participants(matches)
 console.log(isSameData(participantResult, ['Alice', 'Bob', 'Carol', 'Dean', 'Elise']))
+
+console.log("Winners Object Test")
+const winnersObject = require("./winnersObject");
+const winnersResult = winnersObject(matches)
+console.log(winnersResult)
