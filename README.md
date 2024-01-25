@@ -16,5 +16,10 @@ The following functions are implemented:
 - `participants(obj)`: Returns an array of all the player names (no player should be listed more than once).
 - `winnersObject(obj)`: Returns an object which lists each participant, and a list of who they've beaten.
 - `biggestLoser(obj)`: Returns the loser name with the biggest tally of loser_points. If a player is the winner, the loser_points are subtracted, and
-  if a player is a loser, then the loser_points are added. Find the player with the largest tally of loser_points. 
+  if a player is a loser, then the loser_points are added. Find the player with the largest tally of loser_points.
+
+## Test Scripts
+
+- `npm run test-arrays`
+- `npm run test-objects`
 
